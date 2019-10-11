@@ -43,5 +43,8 @@ $notices->remove_notice(
 
 ```
 <?php
-$notices->display_notices( 'test', 'notice-info' );
+$notices->display_notices(
+	'notice_group_slug',	// Notice group slug
+	'notice-info'	// Notice class
+);
 ```
