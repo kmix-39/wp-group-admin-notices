@@ -1,0 +1,26 @@
+{
+  "name": "kmix39/wp-group-admin-notices",
+  "description": "A library for WordPress that displays group notices on the admin screen.",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=7.0"
+  },
+  "homepage": "https://github.com/kmix-39/wp-group-admin-notices",
+  "authors": [
+    {
+      "name": "kmix39",
+      "email": "kmix39@not-wiz.net",
+      "homepage": "https://not-wiz.net",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+     "source": "https://github.com/kmix-39/wp-group-admin-notices",
+     "issues": "https://github.com/kmix-39/wp-group-admin-notices/issues"
+  },
+  "autoload": {
+    "psr-4" : {
+      "Kmix39\\WP_Group_Admin_Notices\\" : "src"
+    }
+  }
+}
