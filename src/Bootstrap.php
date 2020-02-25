@@ -45,7 +45,7 @@ class Bootstrap {
 		if ( null === $slug ) {
 			return count( $this->_groups );
 		}
-		if ( ! isset( $this->_groups[$slug] ) ) {
+		if ( isset( $this->_groups[$slug] ) ) {
 			return count( $this->_groups[$slug] );
 		}
 		return 0;
