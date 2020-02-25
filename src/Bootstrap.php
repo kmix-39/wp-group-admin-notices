@@ -41,7 +41,7 @@ class Bootstrap {
 		$this->_display_options[$slug] = $class;
 	}
 
-	public function notices_count( $slug = null ) {
+	public function get_notices_count( $slug = null ) {
 		if ( null === $slug ) {
 			return count( $this->_groups );
 		}
