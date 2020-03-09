@@ -40,6 +40,13 @@ final class Group {
 		$this->_options->remove( $code );
 	}
 
+	public function get_count() {
+		if ( null !== $this->_options ) {
+			return count( $this->_options->get_error_messages() );
+		}
+		return 0;
+	}
+
 	private function init_options() {
 		$this->_options = new WP_Error();
 	}
